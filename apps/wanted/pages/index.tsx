@@ -1,5 +1,4 @@
 import { sayHello } from '@wanted/lib';
-import { Message } from '@wanted/ui';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
@@ -19,7 +18,6 @@ export default function Home() {
         </h1>
 
         <h2>{sayHello()}</h2>
-        <Message message="Hello From @wanted/ui"></Message>
 
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.tsx</code>
