@@ -6,6 +6,9 @@
     "apps/*",
     "packages/*"
   ],
+  "scripts": {
+    "g:typecheck": "yarn workspaces foreach -pv run typecheck"
+  },
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.10.0",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
